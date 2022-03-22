@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".Login">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="95sp"
+        android:gravity="center"
+        android:text="Welcome to Hospinfo"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textColor="@color/white"
+        android:background="@drawable/editfeilds"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:fontFamily="sans-serif"
+        style="@style/ipborder"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:textColor="@color/white"
+        android:background="@drawable/editfeilds"
+        style="@style/ipborder"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+    <!--    android:password="true"-->
+
+    <Button
+        android:id="@+id/blogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:paddingLeft="30sp"
+        android:paddingRight="30sp"
+        android:text="Login"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:gravity="center"
+        android:text="New User?"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/bregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:text="Register" />
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".Doctor.Leaves">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Apply for a new leave"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="center_horizontal"
+        android:text="From"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/etdd1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:textColor="@color/white"
+            android:layout_weight="39"
+            android:gravity="center"
+            android:hint="dd"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnermonth1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="27"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etyy1"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:textColor="@color/white"
+            android:layout_weight="33"
+            android:gravity="center"
+            android:hint="yy"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:gravity="center_horizontal"
+        android:text="To"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <EditText
+            android:id="@+id/etdd2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="39"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:hint="dd"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnermonth2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_weight="27"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/etyy2"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5sp"
+            android:layout_marginRight="5sp"
+            android:layout_weight="33"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:hint="yy"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/d_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:text="Apply"
+        android:onClick="onClick"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center_horizontal"
+        android:text="Or"
+        android:textSize="20sp" />
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/view_previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buttonst"
+        android:textColor="@color/bg"
+        android:layout_marginTop="20sp"
+        android:text="View Previous"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

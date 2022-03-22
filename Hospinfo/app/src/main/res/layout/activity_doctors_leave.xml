@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".Desktop_Admin.Doctor_related.Doctors_Leave">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="All Pending Leave Applications"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="22sp" />
+
+    <ListView
+        android:id="@+id/lv_doctors_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:divider="#2f2f2f"
+        android:dividerHeight="0.5sp"
+        android:drawSelectorOnTop="true" />
+
+</LinearLayout>

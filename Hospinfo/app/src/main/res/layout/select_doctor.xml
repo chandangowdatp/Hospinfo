@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".Patient.Select_Doctor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Select to Apply For Appointment"
+        android:layout_margin="20sp"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/lv_doctors_available"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#2f2f2f"
+        android:dividerHeight="0.5sp"
+        >
+    </ListView>
+
+</LinearLayout>

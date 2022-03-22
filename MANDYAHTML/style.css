@@ -1,0 +1,52 @@
+ 
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.header{
+	text-align: center;
+	font-family: sans-serif;
+	font-stretch: ultra-expanded;
+	font-weight: bold;
+    font-size: 25px;
+    height: 150px;
+}
+.menu-bar{
+	background-color: gray;
+	text-align: center;
+}
+.menu-bar ul{
+     display: inline-flex;
+     list-style: none;
+     color: #fff;
+}
+.menu-bar ul li{
+	width :120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+	color: white;
+}
+.active, .menu-bar ul li:hover
+{
+	background:rgb(200,200,200);
+	border-radius: 3px;
+}
+fieldset {
+  background-color: #eeeeee;
+}
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+div{
+	font-family: serif;
+}

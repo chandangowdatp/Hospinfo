@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".Doctor.Doctor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/tv_d_name"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20sp"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_d_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Personal Info"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+
+    <Button
+        android:id="@+id/b_d_leaves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Apply/View Leaves"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+
+
+    <Button
+        android:id="@+id/b_d_upload_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Upload Current Patient Report"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

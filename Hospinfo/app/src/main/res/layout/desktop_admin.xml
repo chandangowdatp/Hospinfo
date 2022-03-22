@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".Desktop_Admin.Desktop_Admin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_da_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text=""
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/b_da_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Personal Info"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/b_da_patient_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Grant Patient Appointment"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/b_da_doctor_leave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:onClick="onClick"
+        android:padding="15sp"
+        android:text="Grant Doctors Leave"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+
+
+    <Button
+        android:id="@+id/b_da_addusers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:padding="15sp"
+        android:text="Add Users"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+    <!-- also delete values from all related entries-->
+
+    <Button
+        android:id="@+id/b_da_delete_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        android:textColor="@color/bg"
+        android:background="@drawable/buttonst"
+        android:layout_marginBottom="5dp"
+        android:padding="15sp"
+        android:text="Delete User"
+        android:textAllCaps="false"
+        android:textSize="17sp" />
+
+</LinearLayout>

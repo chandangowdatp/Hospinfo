@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="290dp"
+            android:src="@drawable/healthcare" />
+
+        <Button
+            android:id="@+id/bloginregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:padding="15sp"
+            android:background="@drawable/buttonst"
+            android:textColor="@color/bg"
+            android:onClick="login"
+
+            android:layout_marginTop="0dp"
+            android:text="Login or Register"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emergency"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonst"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bg"
+            android:padding="15sp"
+            android:onClick="emergency"
+            android:text="Emergency services"
+            android:textSize="17sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="availDoctors"
+            android:padding="15sp"
+            android:background="@drawable/buttonst"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bg"
+            android:text="Available Doctors"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="availServices"
+            android:padding="15sp"
+            android:background="@drawable/buttonst"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bg"
+            android:text="Services"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="help"
+            android:padding="15sp"
+            android:background="@drawable/buttonst"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/bg"
+            android:text="Help"
+            android:textAllCaps="false"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</ScrollView>
